@@ -2,66 +2,78 @@
 <html>
 
 <head>
-  <title>Home</title>
+  <title>Jasmine Zyp</title>
   <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css"/>
 </head>
 
 <body>
-  <nav>
-    <ul>
-      <li><a href="#intro">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
-  <section id="intro">
-    <h1>Jasmine's Portfolio (Zyp Data)</h1>
-    <p>
-      Welcome to my portfolio! I am a data scientist with a passion for data visualization and machine learning. I am
-      currently seeking new opportunities in data science and machine learning. Please feel free to reach out to me if
-      you would like to work together.
-    </p>
-  </section>
-  <section id="about">
-    <h2>About Me</h2>
-    <p>
-      I am a data scientist with a background in computer science and statistics. I have experience working with a
-      variety of data types, including structured and unstructured data. I am proficient in Python, R, and SQL, and have
-      experience with a variety of data science libraries and tools, including Pandas, NumPy, Matplotlib, Seaborn,
-      Scikit-Learn, and TensorFlow.
-    </p>
-    <h3>Technical Skills</h3>
-    <ul>
-      <li>Data Visualization</li>
-      <li>Machine Learning</li>
-      <li>Natural Language Processing</li>
-      <li>Deep Learning</li>
-      <li>Big Data</li>
-    </ul>
-  </section>
+  <div class="flex justify-between">
+    <nav>
+      <ul>
+        <li><a href="#intro">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="ml7 relative">
+      <div class="overlay absolute w-100 vh-100 z-1"></div>
+      <div class="background-image cover w-100 absolute bg-center z-0 vh-100"></div>
+      <h1 class="z-1 vh-100 ma0 flex flex-column justify-center relative">
+        Jasmine's Portfolio (Zyp Data)
+      </h1>
+      <section id="intro">
+        <p>
+          Welcome to my portfolio! I am a data scientist with a passion for data visualization and machine learning. I am
+          currently seeking new opportunities in data science and machine learning. Please feel free to reach out to me if
+          you would like to work together.
+        </p>
+      </section>
+      <section id="about">
+        <h2>About Me</h2>
+        <section class="image-left-banner">
+          <img src="jasmine-headshot.webp" alt="Jasmine Zyp">
+          <p class="text-content">
+            I am a data scientist with a background in computer science and statistics. I have experience working with a
+            variety of data types, including structured and unstructured data. I am proficient in Python, R, and SQL, and have
+            experience with a variety of data science libraries and tools, including Pandas, NumPy, Matplotlib, Seaborn,
+            Scikit-Learn, and TensorFlow.
+          </p>
+        </section>
+        <h3>Technical Skills</h3>
+        <ul>
+          <li>Data Visualization</li>
+          <li>Machine Learning</li>
+          <li>Natural Language Processing</li>
+          <li>Deep Learning</li>
+          <li>Big Data</li>
+        </ul>
+      </section>
 
-  <section id="projects">
-    <h2>Recent Projects</h2>
-    <h3>Project 1: Data Visualization in Python</h3>
-    <p>This project focused on data visualization in Python using the Matplotlib and Seaborn libraries. I created a
-      variety of plots, including line plots, scatter plots, bar plots, and box plots. I also created heatmaps and pair
-      plots to explore relationships between variables in a dataset.</p>
-    <h3>Project 2: Machine Learning in Python</h3>
-    <p>This project focused on machine learning in Python using the Scikit-Learn library. I built and evaluated several
-      machine learning models, including linear regression, logistic regression, decision trees, and random forests. I
-      also used cross-validation and grid search to optimize model performance.</p>
-    <h3>Project 3: Natural Language Processing in Python</h3>
-    <p>This project focused on natural language processing in Python using the NLTK and TextBlob libraries. I performed
-      text preprocessing, tokenization, and part-of-speech tagging. I also built a sentiment analysis model to classify
-      text as positive, negative, or neutral.</p>
-  </section>
+      <section id="projects">
+        <h2>Recent Projects</h2>
+        <h3>Project 1: Data Visualization in Python</h3>
+        <p>This project focused on data visualization in Python using the Matplotlib and Seaborn libraries. I created a
+          variety of plots, including line plots, scatter plots, bar plots, and box plots. I also created heatmaps and pair
+          plots to explore relationships between variables in a dataset.</p>
+        <h3>Project 2: Machine Learning in Python</h3>
+        <p>This project focused on machine learning in Python using the Scikit-Learn library. I built and evaluated several
+          machine learning models, including linear regression, logistic regression, decision trees, and random forests. I
+          also used cross-validation and grid search to optimize model performance.</p>
+        <h3>Project 3: Natural Language Processing in Python</h3>
+        <p>This project focused on natural language processing in Python using the NLTK and TextBlob libraries. I performed
+          text preprocessing, tokenization, and part-of-speech tagging. I also built a sentiment analysis model to classify
+          text as positive, negative, or neutral.</p>
+      </section>
 
-  <section id="contact">
-    <h2>Contact Me</h2>
-    <p>If you would like to get in touch with me, please feel free to send me an email at
-      <a href="mailto: jasminezyp@gmail.com">jasminezyp@gmail.com</a>
-  </section>
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <p>If you would like to get in touch with me, please feel free to send me an email at
+          <a href="mailto: jasminezyp@gmail.com">jasminezyp@gmail.com</a>
+      </section>
+    </div>
+  </div>
 </body>
 
 </html>
