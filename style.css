@@ -1,9 +1,3 @@
-body {
-  margin: 0;
-  background-color: var(--secondary);
-  color: var(--dark);
-}
-
 /* colour palette */
 :root {
   --primary: #45503B;
@@ -13,30 +7,14 @@ body {
   --dark: #333;
 }
 
-section {
-  margin: .5rem;
+body {
+  background-color: var(--secondary);
+  color: var(--dark);
 }
 
 /* nav bar */
 nav {
-  position: fixed;
   background-color: var(--primary);
-  width: 240px;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-nav ul {
-  font-size: 1.5rem;
-  padding: 0;
-  margin-top: 1rem;
-}
-
-nav li {
-  list-style: none;
 }
 
 nav li a {
@@ -45,7 +23,6 @@ nav li a {
   display: block;
   text-align: center;
   padding: 1rem 0;
-  width: 240px;
 }
 
 a:hover {
@@ -72,11 +49,6 @@ h1 {
 
 .background-image {
   background-image: url("hero-banner.jpg");
-}
-
-.overlay {
-  background-color: rgba(0, 0, 0, 0.5);
-  height: 100vh;
 }
 
 .image-left-banner {
