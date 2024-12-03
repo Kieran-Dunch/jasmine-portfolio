@@ -5,25 +5,31 @@
   <title>Jasmine Zyp</title>
   <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="stylesheet" href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 
 <body class="ma0">
   <div class="flex justify-between">
     <nav class="fixed w5 vh-100 flex flex-column items-center justify-center">
-      <ul class="pa0 f3 mt2 list">
-        <li><a href="#intro" class="w5">Home</a></li>
-        <li><a href="#about" class="w5">About</a></li>
-        <li><a href="#projects" class="w5">Projects</a></li>
-        <li><a href="#contact" class="w5">Contact</a></li>
+      <ul class="pa0 f3 mt2 list tc">
+        <li><a href="#intro" class="w5 pv3 db link">Home</a></li>
+        <li><a href="#about" class="w5 pv3 db link">About</a></li>
+        <li><a href="#projects" class="w5 pv3 db link">Projects</a></li>
+        <li><a href="#contact" class="w5 pv3 db link">Contact</a></li>
       </ul>
     </nav>
     <div class="ml7 relative">
       <div class="absolute w-100 vh-100 z-1 bg-black-50"></div>
       <div class="background-image cover w-100 absolute bg-center z-0 vh-100"></div>
-      <h1 class="z-1 vh-100 ma0 flex flex-column justify-center relative">
-        Jasmine's Portfolio (Zyp Data)
-      </h1>
-      <section id="intro">
+      <div class="z-1 vh-100 flex mv0 flex-column justify-center relative tc">
+        <h1 class="roboto-black tc">
+          Jasmine Zyp
+        </h1>
+        <h2 class="f1 relative tc">Data Scientist</h2>
+      </div>
+      <section id="intro" class="mt5">
         <p>
           Welcome to my portfolio! I am a data scientist with a passion for data visualization and machine learning. I am
           currently seeking new opportunities in data science and machine learning. Please feel free to reach out to me if
@@ -32,9 +38,9 @@
       </section>
       <section id="about">
         <h2>About Me</h2>
-        <section class="image-left-banner">
+        <section class="card-image-left flex justify-center vh-50">
           <img src="jasmine-headshot.webp" alt="Jasmine Zyp">
-          <p class="text-content">
+          <p class="ml3">
             I am a data scientist with a background in computer science and statistics. I have experience working with a
             variety of data types, including structured and unstructured data. I am proficient in Python, R, and SQL, and have
             experience with a variety of data science libraries and tools, including Pandas, NumPy, Matplotlib, Seaborn,
