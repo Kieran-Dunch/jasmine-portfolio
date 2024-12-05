@@ -1,7 +1,7 @@
 /* colour palette */
 :root {
   --primary: #45503B;
-  --secondary: #E0D7DD;
+  --secondary: #F1ECE8;
   --tertiary: #DBD9DB;
   --light: #FAFAFA;
   --dark: #333;
@@ -83,7 +83,6 @@
 
 
 body {
-  background-color: var(--secondary);
   color: var(--dark);
   font-family: "Roboto", sans-serif;
 }
@@ -93,23 +92,30 @@ nav {
   background-color: var(--primary);
 }
 
-nav li a {
-  color: var(--light);
+.nav a {
+  color: var(--secondary);
 }
 
-a:hover {
+.nav a:hover {
   color: var(--primary);
   background-color: var(--secondary);
   transition: all .5s;
 }
 
-h1 {
+.light-color {
   color: var(--light);
-  font-size: 5rem !important;
 }
 
-h2 {
-  color: var(--light);
+.bg-light {
+  background-color: var(--light);
+}
+
+.bg-primary {
+  background-color: var(--primary);
+}
+
+.bg-seconrday {
+  background-color: var(--secondary);
 }
 
 .background-image {
@@ -117,5 +123,13 @@ h2 {
 }
 
 #about {
-  background-color: var(--light);
+  background-color: var(--secondary);
+}
+
+#sidebar {
+  background-color: var(--primary);
+}
+
+.footer {
+  color: var(--light);
 }
