@@ -133,3 +133,10 @@ nav {
 .footer {
   color: var(--light);
 }
+
+.material-symbols-outlined {
+  font-family: "Material Icons Outlined";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 60px !important;
+}
