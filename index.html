@@ -58,7 +58,7 @@
     <!-- main content -->
     <div class="ml7-l relative">
       <!-- mobile nav -->
-      <nav class="dt dn-l w-100 pa3 ph5-ns fixed z-2">
+      <nav class="dt dn-l w-100 pa3 ph5-ns fixed z-2 bg-primary">
         <a class="dtc v-mid link flex" href="#intro" title="Home">
           <img src="assets/logo.webp" class="dib w3 br-100" alt="Jasmine Zyp">
         </a>
@@ -172,59 +172,68 @@
       </section>
 
       <!-- Projects section -->
-      <section id="projects" class="pv1 lh-copy mt4">
+      <section id="projects" class="pv1 lh-copy">
         <h2 class="f1 tc pv4 mv0">
           Projects
         </h2>
-        <div class="flex flex-wrap">
-          <div class="pa2 w-30-ns">
-            <h3 class="tc f3 ma0">
-              Project 1: Data Visualization in Python
-            </h3>
-            <p class="f4">
-              This project focused on data visualization in Python using the Matplotlib and Seaborn libraries. I created a
-              variety of plots, including line plots, scatter plots, bar plots, and box plots. I also created heatmaps and pair
-              plots to explore relationships between variables in a dataset.
-            </p>
-            <img src="assets/computer.webp" alt="a man at a computer" class="mv2">
-            <a href="projects.html" class="db tc pv3 ph4 bg-primary link color-light">
-              View More Projects
-            </a>
+        <div
+        id="carousel-1"
+        class="carousel ma0 center"
+        role="region"
+        aria-labelledby="carousel-1-title"
+        >
+          <div
+            class="slide"
+            role="tabpanel"
+            aria-labelledby="carousel-1-slide-1-title"
+          >
+            <div class="slide-content">
+              <div class="slide-caption">
+                <h3 id="carousel-1-slide-1-title">DotaDubs</h3>
+                <p>This is my capstone project</p>
+                <a href="projects.html" class="db tc pv3 ph4 bg-primary link color-light">
+                  View the code
+                </a>
+              </div>
+
+              <img
+                src="assets/computer.webp"
+                alt="Nanda Kot peak"
+                width="800"
+                height="600"
+              />
+            </div>
           </div>
-          <div class="pa2 w-30-ns">
-            <h3 class="tc f3 ma0">
-              Project 2: Machine Learning in Python
-            </h3>
-            <img src="assets/computer.webp" alt="a man at a computer" class="mv2">
-            <p class="f4">
-              This project focused on machine learning in Python using the Scikit-Learn library. I built and evaluated several
-              machine learning models, including linear regression, logistic regression, decision trees, and random forests. I
-              also used cross-validation and grid search to optimize model performance.
-            </p>
-            <a href="projects.html" class="db tc pv3 ph4 bg-primary link color-light">
-              View More Projects
-            </a>
-          </div>
-          <div class="pa2 w-30-ns">
-            <h3 class="tc f3 ma0">
-              Project 3: Natural Language Processing in Python
-            </h3>
-            <p class="f4">
-              This project focused on natural language processing in Python using the NLTK and TextBlob libraries. I performed
-              text preprocessing, tokenization, and part-of-speech tagging. I also built a sentiment analysis model to classify
-              text as positive, negative, or neutral.
-            </p>
-            <img src="assets/computer.webp" alt="a man at a computer" class="mv2">
-            <a href="projects.html" class="db tc pv3 ph4 bg-primary link color-light">
-              View More Projects
-            </a>
+
+          <div
+            class="slide"
+            role="tabpanel"
+            aria-labelledby="carousel-1-slide-2-title"
+          >
+            <div class="slide-content">
+              <div class="slide-caption">
+                <h3 id="carousel-1-slide-2-title">Second place Globally</h3>
+                <p>
+                  This project is a contest win i accomplished!
+                </p>
+                <a href="projects.html" class="db tc pv3 ph4 bg-primary link color-light">
+                  See the presentation
+                </a>
+              </div>
+              <img
+                src="assets/logo.webp"
+                alt="Jasmine's Logo"
+                width="800"
+                height="600"
+              />
+            </div>
           </div>
         </div>
       </section>
 
       <!-- Contact section -->
-      <section id="contact" class="bg-light pv1 vh-75 content-center tc">
-        <h2 class="f1 tc 4 mv0">
+      <section id="contact" class="bg-light pv1 lh-copy vh-75 tc">
+        <h2 class="f1 tc pv4 mv0">
           Contact
         </h2>
         <p class="center w-50-ns ph3">
@@ -240,101 +249,6 @@
           </button>
         </form>
       </section>
-
-      <div
-        id="carousel-1"
-        class="carousel w-75 ma0 center"
-        role="region"
-        aria-labelledby="carousel-1-title"
-      >
-        <h2 class="carousel-title" id="carousel-1-title">
-          Beautiful Landscapes
-        </h2>
-        <p class="carousel-description">
-          An autoplaying carousel of landscapes with pagination enabled
-        </p>
-        <div
-          class="slide"
-          role="tabpanel"
-          aria-labelledby="carousel-1-slide-1-title"
-        >
-          <div class="slide-content">
-            <div class="slide-caption">
-              <h3 id="carousel-1-slide-1-title">DotaDubs</h3>
-              <p>This is my capstone project</p>
-            </div>
-
-            <img
-              src="assets/computer.webp"
-              alt="Nanda Kot peak"
-              width="800"
-              height="600"
-            />
-          </div>
-        </div>
-
-        <div
-          class="slide"
-          role="tabpanel"
-          aria-labelledby="carousel-1-slide-2-title"
-        >
-          <div class="slide-content">
-            <div class="slide-caption">
-              <h3 id="carousel-1-slide-2-title">Second place Globally</h3>
-              <p>
-                This project is a contest win i accomplished!
-              </p>
-            </div>
-            <img
-              src="assets/logo.webp"
-              alt="Manali Mountains"
-              width="800"
-              height="600"
-            />
-          </div>
-        </div>
-
-        <div
-          class="slide"
-          role="tabpanel"
-          aria-labelledby="carousel-1-slide-3-title"
-        >
-          <div class="slide-content">
-            <div class="slide-caption">
-              <h3 id="carousel-1-slide-3-title">Aotearoa</h3>
-              <p>New Zealand</p>
-            </div>
-
-            <img
-              src="assets/jasmine-headshot.webp"
-              alt="Aotearoa"
-              width="800"
-              height="600"
-            />
-          </div>
-        </div>
-        <div
-          class="slide"
-          role="tabpanel"
-          aria-labelledby="carousel-1-slide-4-title"
-        >
-          <div class="slide-content">
-            <div class="slide-caption">
-              <h3 id="carousel-1-slide-4-title">Richmond Park</h3>
-              <p>London, England</p>
-            </div>
-
-            <img
-              src="assets/computer.webp"
-              alt="London’s Richmond Park"
-              width="800"
-              height="600"
-            />
-          </div>
-        </div>
-      </div>
-    </div>
-
     </div>
   </div>
 
