@@ -66,6 +66,12 @@ body {
   transition: all .5s;
 }
 
+.slide-caption a:hover {
+  color: var(--primary);
+  background-color: var(--secondary);
+  transition: all .5s;
+}
+
 .color-light {
   color: var(--light);
 }
