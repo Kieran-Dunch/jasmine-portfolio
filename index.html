@@ -7,15 +7,34 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Jasmine Zyp is a data scientist with a passion for problem-solving. She is committed to bridging the gap between technical and non-technical stakeholders, using effective communication and intuitive visualizations to make complex topics simple.">
 
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="stylesheet" href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css"/>
+  <link rel="preload"
+    href="style.css"
+    as="style"
+    onload="this.onload=null;this.rel='stylesheet'">
+
+  <link rel="stylesheet"
+    href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css"
+    media="print"
+    onload="this.media='all'">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet"
+    media="print"
+    onload="this.media='all'">
+
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    media="print"
+    onload="this.media='all'">
+
+  <link
+    rel="preload"
+    as="image"
+    href="assets/hero-banner.webp"
+    type="image/webp">
 </head>
 
 <body class="ma0 pt-sans-regular">
