@@ -14,7 +14,7 @@ audio {
 
 /* colour palette */
 :root {
-  --primary: #1d3705;
+  --primary: #174a43;
   --secondary: #FAFAFA;
   --tertiary: #DBD9DB;
   --light: #FAFAFA;
@@ -171,11 +171,9 @@ iframe {
   color: currentColor;
 }
 
-.slide-caption h3,
-.slide-caption p {
-  margin: 0;
+.caption-text {
+  background-color: rgba(23, 74, 67, 0.6);
 }
-
 .slide img {
   width: 100%;
   object-fit: cover;
