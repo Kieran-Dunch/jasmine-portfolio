@@ -230,3 +230,11 @@ iframe {
   transform: scale(1.5);
   background-color: var(--carousel-pagination-btn-active-bg);
 }
+
+.top-nav {
+  background-color: rgba(23, 74, 67, 0.8);
+}
+
+.about-text {
+  max-width: 36rem;
+}
